@@ -1,0 +1,82 @@
+ /* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Pirata One', cursive;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #6c757d; /* Gris oscuro */
+    color: #f8f9fa; /* Blanco hueso */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header a, footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Azul claro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+h2.fuente-acento {
+    color: #007bff; /* Azul claro */
+    margin-bottom: 1rem;
+}
+
+.parrafo1, .parrafo2 {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.acerca-imagen img {
+    max-width: 100%;
+    height: center;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+footer nav ul.pie {
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+.btn-generar{}
