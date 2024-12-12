@@ -1,0 +1,121 @@
+ /* formulario.css */
+
+body {
+    margin: 0;
+    font-family: 'Pirata One', cursive;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #6c757d; /* Gris oscuro */
+    color: #f8f9fa; /* Blanco hueso */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header a, footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff; /* Azul claro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h2.titulo_seccion {
+    text-align: center;
+    color: #007bff;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.form_contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #333;
+}
+
+input[type="text"], 
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button[type="submit"] {
+    padding: 0.7rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer nav ul.pie {
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
